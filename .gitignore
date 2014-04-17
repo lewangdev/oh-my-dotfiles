@@ -28,7 +28,7 @@
 .pyenv/
 .ssh/
 .subversion/
-.tmunx.conf
+#.tmunx.conf
 .vagrant.d/
 #.vim/
 #.vim_mru_files
@@ -39,7 +39,7 @@
 .zcompdump-iforget-5.0.2
 .zsh-update
 .zsh_history
-.zshrc
+#.zshrc
 Applications/
 Desktop/
 Documents/

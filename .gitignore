@@ -27,7 +27,9 @@
 #.pip/
 pip.log
 .pyenv/
-#.ssh/
+.ssh/*
+!.ssh/config
+!.ssh/*.pub
 .subversion/
 #.tmunx.conf
 .vagrant.d/

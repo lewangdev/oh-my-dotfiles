@@ -1,5 +1,5 @@
-[submodule "/Users/wangle/.vim_runtime"]
-	path = /Users/wangle/.vim_runtime
+[submodule ".vim_runtime"]
+	path = .vim_runtime
 	url = git@github.com:thisiswangle/vimrc.git
 [submodule ".oh-my-zsh"]
 	path = .oh-my-zsh

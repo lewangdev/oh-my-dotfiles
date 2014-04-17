@@ -24,9 +24,10 @@
 .matplotlib/
 .nbprofiler/
 #.oh-my-zsh/
-.pip/
+#.pip/
+pip.log
 .pyenv/
-.ssh/
+#.ssh/
 .subversion/
 #.tmunx.conf
 .vagrant.d/

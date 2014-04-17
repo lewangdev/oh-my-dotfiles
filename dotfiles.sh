@@ -17,3 +17,6 @@ ln -s ~/.dotfiles/.pip .pip
 
 [ -e '~/.ssh' ] && mv ~/.ssh ~/.ssh.orig
 ln -s ~/.dotfiles/.ssh .ssh
+
+[ -e '~/.gitconfig' ] && mv ~/.gitconfig ~/.gitconfig.orig
+ln -s ~/.dotfiles/gitconfig.global .gitconfig

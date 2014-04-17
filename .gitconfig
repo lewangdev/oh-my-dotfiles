@@ -1,21 +1,3 @@
-[core]
-    editor = vim
-    autocrlf = input
-    #safecrlf = true
-    whitespace = cr-at-eol
-
-[color]
-    ui = auto
 [user]
     name = thisiswangle
     email = wangle.tju@gmail.com
-[merge]
-    tool = vimdiff
-[alias]
-    st = status
-    co = checkout
-    ci = commit
-    br = branch
-    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
-[http]
-    sslVerify = false

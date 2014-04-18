@@ -26,3 +26,11 @@ alias 'ps?'='ps aux | grep'
 
 # alias for ping
 alias p="ping"
+
+
+# some commands
+alias tmuxenv="~/.dotfiles/tmuxenv.sh"
+
+# commands need install
+alias goagent='~/Workspace/app/goagent/local/goagent-osx.command'
+alias kindlegen='~/Workspace/app/kindlegen/kindlegen'

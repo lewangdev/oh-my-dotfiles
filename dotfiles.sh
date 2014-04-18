@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 [ -e '~/.zshrc' ] && mv ~/.zshrc ~/.zshrc.orig
 ln -s ~/.dotfiles/.zshrc ~/.zshrc

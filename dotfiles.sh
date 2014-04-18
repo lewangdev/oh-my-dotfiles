@@ -9,8 +9,8 @@ ln -s ~/.dotfiles/.vimrc ~/.vimrc
 [ -e '~/.vim' ] && mv ~/.vim ~/.vim.orig
 ln -s ~/.dotfiles/.vim ~/.vim
 
-[ -e '~/.tmunx.conf' ] && mv ~/.tmunx.conf ~/.tmunx.conf.orig
-ln -s ~/.dotfiles/.tmunx.conf .tmunx.conf
+[ -e '~/.tmux.conf' ] && mv ~/.tmux.conf ~/.tmux.conf.orig
+ln -s ~/.dotfiles/.tmux.conf .tmux.conf
 
 [ -e '~/.pip' ] && mv ~/.pip ~/.pip.orig
 ln -s ~/.dotfiles/.pip .pip

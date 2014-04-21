@@ -2,21 +2,21 @@
 #
 # Initialize tmux env for work
 #
-TMUX=$(which tmux)
+WLTMUX=$(which tmux)
 SESSION=workon
 
-if [ -z $TMUX ]; then
+if [ -z $WLTMUX ]; then
     echo "You need to install tmux."
     exit 1
 fi
 
-$TMUX has-session -t $SESSION
+$WLTMUX has-session -t $SESSION
 
 if [ $? != 0 ]; then
-    $TMUX new-session -d -n workonw -s $SESSION
-    $TMUX select-window -t $SESSION:1
+    $WLTMUX new-session -d -n workonw -s $SESSION
+    $WLTMUX select-window -t $SESSION:1
 fi
 
-$TMUX attach -t $SESSION
+$WLTMUX attach -t $SESSION
 
 exit 0

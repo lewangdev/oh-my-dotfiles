@@ -32,3 +32,7 @@ alias p="ping"
 alias wltmuxenv="~/.dotfiles/tmuxenv.sh"
 alias wlgoagent='~/Workspace/app/goagent/local/goagent-osx.command'
 alias wlkindlegen='~/Workspace/app/kindlegen/kindlegen'
+
+# some commands shortcut
+alias wlssh1txdn="ssh le@mysql.1txdn.com"
+alias wlsshlinode="ssh le@www.diggcool.com"

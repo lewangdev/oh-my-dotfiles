@@ -36,3 +36,6 @@ alias wlkindlegen='~/Workspace/app/kindlegen/kindlegen'
 # some commands shortcut
 alias wlssh1txdn="ssh le@mysql.1txdn.com"
 alias wlsshlinode="ssh le@www.diggcool.com"
+alias tmux="TERM=screen-256color-bce tmux"
+
+export PATH=$PATH:~/Library/android-sdk-macosx/platform-tools

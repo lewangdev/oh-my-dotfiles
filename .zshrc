@@ -73,6 +73,7 @@ fi
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
+source "$HOME/.dotfiles/.my_env"
 
 # my aliases
 source "$HOME/.dotfiles/.my_aliases"

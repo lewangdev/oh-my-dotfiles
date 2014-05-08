@@ -7,7 +7,7 @@ ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/.vimrc ~/.vimrc
 
 [ -e ~/.vim_runtime ] && mv ~/.vim_runtime ~/.vim_runtime.orig
-ln -s ~/.dotfiles/.vim_runtime ~/.vim_runtime
+ln -s ~/.dotfiles/vim_runtime ~/.vim_runtime
 
 [ -e ~/.vim ] && mv ~/.vim ~/.vim.orig
 ln -s ~/.dotfiles/.vim ~/.vim

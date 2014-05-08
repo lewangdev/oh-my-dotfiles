@@ -10,13 +10,13 @@ ln -s ~/.dotfiles/.vimrc ~/.vimrc
 ln -s ~/.dotfiles/.vim ~/.vim
 
 [ -e ~/.tmux.conf ] && mv ~/.tmux.conf ~/.tmux.conf.orig
-ln -s ~/.dotfiles/.tmux.conf .tmux.conf
+ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
 
 [ -e ~/.pip ] && mv ~/.pip ~/.pip.orig
-ln -s ~/.dotfiles/.pip .pip
+ln -s ~/.dotfiles/.pip ~/.pip
 
 [ -e ~/.ssh ] && mv ~/.ssh ~/.ssh.orig
-ln -s ~/.dotfiles/.ssh .ssh
+ln -s ~/.dotfiles/.ssh ~/.ssh
 
 [ -e ~/.gitconfig ] && mv ~/.gitconfig ~/.gitconfig.orig
-ln -s ~/.dotfiles/gitconfig.global .gitconfig
+ln -s ~/.dotfiles/gitconfig.global ~/.gitconfig

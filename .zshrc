@@ -48,7 +48,7 @@ DISABLE_CORRECTION="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git brew osx autojump mvn scala virtualenv virtualenvwrapper vagrant postgres)
+plugins=(git brew osx autojump mvn scala pip virtualenvwrapper vagrant postgres)
 
 source $ZSH/oh-my-zsh.sh
 

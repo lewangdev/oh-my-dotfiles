@@ -27,6 +27,8 @@ alias 'ps?'='ps aux | grep'
 # alias for ping
 alias p="ping"
 
+# alias for tmux to 256 color
+alias tmux="TERM=screen-256color-bce tmux"
 
 # some commands
 alias wltmuxenv="~/.dotfiles/tmuxenv.sh"
@@ -36,6 +38,10 @@ alias wlkindlegen='~/Workspace/app/kindlegen/kindlegen'
 # some commands shortcut
 alias wlssh1txdn="ssh le@mysql.1txdn.com"
 alias wlsshlinode="ssh le@www.diggcool.com"
-alias tmux="TERM=screen-256color-bce tmux"
+alias wlhttpserver="python -m SimpleHTTPServer"
 
-export PATH=$PATH:~/Library/android-sdk-macosx/platform-tools
+# for plans
+alias wlpland="vim `date "+%Y-%m-%d".md`"
+alias wlplanm="vim `date "+%Y-%m-%d".md`"
+alias wlplanl="vim `date "+%Y-%m-%d".md`"
+

@@ -52,9 +52,7 @@ plugins=(git brew osx autojump mvn scala pip virtualenvwrapper vagrant postgres)
 
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
 
-export PATH=$HOME/bin:/usr/local/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -73,7 +71,10 @@ fi
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
-source "$HOME/.dotfiles/.my_env"
+# User configuration
+if [[ -z $WLTMUX ]]; then
+  source "$HOME/.dotfiles/.my_env"
+fi
 
 # my aliases
 source "$HOME/.dotfiles/.my_aliases"

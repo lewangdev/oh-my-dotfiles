@@ -2,8 +2,8 @@
 #
 # Initialize tmux env for work
 #
-WLTMUX=$(which tmux)
-SESSION=workon
+export WLTMUX=$(which tmux)
+export SESSION=workon
 
 if [ -z $WLTMUX ]; then
     echo "You need to install tmux."

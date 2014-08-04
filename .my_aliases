@@ -36,10 +36,10 @@ alias wlgoagent='~/Workspace/app/goagent/local/goagent-osx.command'
 alias wlkindlegen='~/Workspace/app/kindlegen/kindlegen'
 
 # some commands shortcut
-alias wlssh1txdn="ssh le@mysql.1txdn.com"
-alias wlsshlinode="ssh le@www.diggcool.com"
 alias wlhttpserver="python -m SimpleHTTPServer"
 alias wlgenpasswd="~/.dotfiles/genpasswd.py"
+alias wlshowpasswd="sudo -k ~/Workspace/gitlab/files-trace/pwdmgr.py -s"
+alias wladdpasswd="sudo -k ~/Workspace/gitlab/files-trace/pwdmgr.py"
 
 # for plans
 alias wlpland="vim `date "+%Y-%m-%d".md`"

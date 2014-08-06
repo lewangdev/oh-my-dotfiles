@@ -46,3 +46,7 @@ alias wlpland="vim `date "+%Y-%m-%d".md`"
 alias wlplanm="vim `date "+%Y-%m-%d".md`"
 alias wlplanl="vim `date "+%Y-%m-%d".md`"
 
+# Internal Mangament
+alias wlsshtest="ssh le@192.168.0.242"
+alias wlsshci="ssh le@ci.1tianxia.net"
+alias wlsshgit="ssh le@git.1tianxia.net"

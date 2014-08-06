@@ -1,1 +1,2 @@
-export PATH=/usr/local/protobuf/bin:~/Library/android-sdk-macosx/platform-tools:/opt/mvn/bin:/opt/ant/bin:$PATH
+export M2_HOME=/opt/mvn
+export PATH=/usr/local/protobuf/bin:~/Library/android-sdk-macosx/platform-tools:${M2_HOME}/bin:/opt/ant/bin:$PATH

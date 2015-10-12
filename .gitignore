@@ -26,6 +26,7 @@
 #.oh-my-zsh/
 #.pip/
 pip.log
+
 .pyenv/
 .ssh/*
 !.ssh/config

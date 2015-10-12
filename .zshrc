@@ -78,3 +78,6 @@ fi
 
 # my aliases
 source "$HOME/.dotfiles/.my_aliases"
+
+#THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
+[[ -s "/Users/wangle/.gvm/bin/gvm-init.sh" ]] && source "/Users/wangle/.gvm/bin/gvm-init.sh"

@@ -56,3 +56,4 @@ Pictures/
 Public/
 VirtualBox VMs/
 Workspace/
+.pip/zsh-cache

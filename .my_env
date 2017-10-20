@@ -1,3 +1,4 @@
 export M2_HOME=/opt/mvn
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/java-8-latest/Contents/Home
 export PATH=/opt/gradle/bin:/usr/local/sbin::${M2_HOME}/bin:${JAVA_HOME}/bin:$PATH
+

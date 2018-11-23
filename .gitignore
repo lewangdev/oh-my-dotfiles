@@ -57,3 +57,4 @@ Public/
 VirtualBox VMs/
 Workspace/
 .pip/zsh-cache
+.ssh/

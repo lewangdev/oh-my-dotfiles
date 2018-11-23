@@ -4,7 +4,7 @@ alias cp='cp -i'
 alias mv='mv -i'
 
 # Default to human readable figures
-alias df='df -h'
+alias df='dfc -u h'
 alias du='du -h'
 
 # Misc :)
@@ -30,27 +30,25 @@ alias p="ping"
 # alias for tmux to 256 color
 alias tmux="TERM=screen-256color-bce tmux"
 
+# sha1/sha256
+alias sha256="openssl dgst -sha256"
+alias sha1="openssl sha1"
+
 # some commands
-alias wltmuxenv="~/.dotfiles/tmuxenv.sh"
-alias wlgoagent='~/Workspace/app/goagent/local/goagent-osx.command'
-alias wlkindlegen='~/Workspace/app/kindlegen/kindlegen'
+alias mytmux="~/.dotfiles/tmux.sh"
+alias mygoagent='~/Workspace/app/goagent/local/goagent-osx.command'
+alias mykindlegen='~/Workspace/app/kindlegen/kindlegen'
 
 # some commands shortcut
-alias wlhttpserver="python -m SimpleHTTPServer"
-alias wlgenpasswd="~/.dotfiles/genpasswd.py"
-alias wlshowpasswd="sudo -k ~/Workspace/gitlab/files-trace/pwdmgr.py -s"
-alias wladdpasswd="sudo -k ~/Workspace/gitlab/files-trace/pwdmgr.py"
+alias myhttpserver="python -m http.server"
+alias mypasswd="~/.dotfiles/passwd.py"
+alias myshowpasswd="sudo -k ~/Workspace/gitlab/files-trace/pwdmgr.py -s"
+alias myaddpasswd="sudo -k ~/Workspace/gitlab/files-trace/pwdmgr.py"
 
 # for plans
-alias wlpland="vim `date "+%Y-%m-%d".md`"
-alias wlplanm="vim `date "+%Y-%m-%d".md`"
-alias wlplanl="vim `date "+%Y-%m-%d".md`"
-
-# Internal Mangament
-alias wlsshtest="ssh le@192.168.0.242"
-alias wlsshci="ssh le@ci.1tianxia.net"
-alias wlsshgit="ssh le@git.1tianxia.net"
-alias wlsshladdow="ssh le@106.185.39.127"
+alias mypland="vim `date "+%Y-%m-%d".md`"
+alias myplanm="vim `date "+%Y-%m-%d".md`"
+alias myplanl="vim `date "+%Y-%m-%d".md`"
 
 # npm
 alias cnpm="npm --registry=https://registry.npm.taobao.org \

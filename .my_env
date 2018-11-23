@@ -1,4 +1,7 @@
 export M2_HOME=/opt/mvn
+export ANDROID_SDK=/Users/wangle/Android/sdk
+export ANDROID_NDK=/Users/wangle/Android/ndk
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/java-8-latest/Contents/Home
+export GOPATH=/Users/wangle/.golang
 export PATH=/opt/gradle/bin:/usr/local/sbin::${M2_HOME}/bin:${JAVA_HOME}/bin:$PATH
 

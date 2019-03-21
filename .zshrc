@@ -69,20 +69,20 @@ fi
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-# ssh
-# export SSH_KEY_PATH="~/.ssh/dsa_id"
+# SSH
+# Export SSH_KEY_PATH="~/.ssh/id_rsa"
 # User configuration
 if [[ -z $WLTMUX ]]; then
   source "$HOME/.dotfiles/.my_env"
 fi
 
-# my aliases
+# My aliases
 source "$HOME/.dotfiles/.my_aliases"
 
-#THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
+# THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
 [[ -s "/Users/wangle/.gvm/bin/gvm-init.sh" ]] && source "/Users/wangle/.gvm/bin/gvm-init.sh"
 
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+# THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/wangle/.sdkman"
 [[ -s "/Users/wangle/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/wangle/.sdkman/bin/sdkman-init.sh"
 
@@ -90,3 +90,18 @@ export SDKMAN_DIR="/Users/wangle/.sdkman"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 [[ -r $NVM_DIR/bash_completion ]] && \. $NVM_DIR/bash_completion
+
+# PYENV
+eval "$(pyenv init -)"
+export PYENV_VIRTUALENV_DISABLE_PROMPT=1
+
+# Zlib
+# For compilers to find zlib you may need to set:
+export LDFLAGS="-L/usr/local/opt/zlib/lib"
+export CPPFLAGS="-I/usr/local/opt/zlib/include"
+
+# For pkg-config to find zlib you may need to set:
+export PKG_CONFIG_PATH="/usr/local/opt/zlib/lib/pkgconfig"
+
+# Homebrew
+export HOMEBREW_NO_INSTALL_CLEANUP=true

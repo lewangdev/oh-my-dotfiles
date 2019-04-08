@@ -35,20 +35,10 @@ alias sha256="openssl dgst -sha256"
 alias sha1="openssl sha1"
 
 # some commands
-alias mytmux="~/.dotfiles/tmux.sh"
-alias mygoagent='~/Workspace/app/goagent/local/goagent-osx.command'
-alias mykindlegen='~/Workspace/app/kindlegen/kindlegen'
+alias mytmux="~/.dotfiles/mytmux"
 
-# some commands shortcut
-alias myhttpserver="python -m http.server"
-alias mypasswd="~/.dotfiles/passwd.py"
-alias myshowpasswd="sudo -k ~/Workspace/gitlab/files-trace/pwdmgr.py -s"
-alias myaddpasswd="sudo -k ~/Workspace/gitlab/files-trace/pwdmgr.py"
-
-# for plans
-alias mypland="vim `date "+%Y-%m-%d".md`"
-alias myplanm="vim `date "+%Y-%m-%d".md`"
-alias myplanl="vim `date "+%Y-%m-%d".md`"
+# for creating new post
+alias mypost="vim `date "+%Y-%m-%d".md`"
 
 # npm
 alias cnpm="npm --registry=https://registry.npm.taobao.org \

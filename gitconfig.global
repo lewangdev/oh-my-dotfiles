@@ -7,8 +7,8 @@
 [color]
     ui = auto
 [user]
-    name = thisiswangle
-    email = wangle.tju@gmail.com
+    name = 小码哥
+    email = thisiswangle@gmail.com
 [merge]
     tool = vimdiff
 [alias]
@@ -21,7 +21,3 @@
     #sslVerify = false
 [credential]
 	helper = store
-#[https]
-#	proxy = socks5://127.0.0.1:1086
-#[http]
-#	proxy = socks5://127.0.0.1:1086

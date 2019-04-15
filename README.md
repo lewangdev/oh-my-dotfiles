@@ -6,7 +6,7 @@ HowTo
 ### Setup
 
 ```
-git clone git@github.com:thisiswangle/dotfiles.git ~/.dotfiles
+git clone git@github.com:thisiswangle/oh-my-dotfiles.git ~/.dotfiles
 git submodule init && git submodule update
 cd ~/.dotfiles && ./dotfiles.sh
 ```

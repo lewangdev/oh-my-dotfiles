@@ -195,11 +195,11 @@
 	<key>WindowTitle</key>
 	<string>~/.dotfiles/mytmux</string>
 	<key>columnCount</key>
-	<integer>208</integer>
+	<integer>120</integer>
 	<key>name</key>
 	<string>Pro X</string>
 	<key>rowCount</key>
-	<integer>58</integer>
+	<integer>40</integer>
 	<key>shellExitAction</key>
 	<integer>2</integer>
 	<key>type</key>

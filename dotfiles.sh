@@ -15,6 +15,9 @@ ln -s ~/.dotfiles/vim ~/.vim
 [ -e ~/.tmux.conf ] && mv ~/.tmux.conf ~/.tmux.conf.bak
 ln -s ~/.dotfiles/tmux.conf ~/.tmux.conf
 
+[ -e ~/.tmux] && mv ~/.tmux ~/.tmux.bak
+ln -s ~/.dotfiles/tmux ~/.tmux
+
 [ -e ~/.pip ] && mv ~/.pip ~/.pip.bak
 ln -s ~/.dotfiles/pip ~/.pip
 

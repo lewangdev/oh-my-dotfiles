@@ -20,6 +20,6 @@
 [http]
     #sslVerify = false
 [credential]
-	helper = store
+    helper = store
 [pull]
-	rebase = true
+    rebase = true

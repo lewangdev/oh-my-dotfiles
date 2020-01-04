@@ -36,6 +36,11 @@ brew cask install \
     wechatwork \
     wechat
 
+# Old
+#brew cask install sequel-pro
+# New
+brew cask install homebrew/cask-versions/sequel-pro-nightly
+
 # Python Tools
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 sudo python get-pip.py

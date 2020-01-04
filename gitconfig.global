@@ -7,7 +7,7 @@
 [color]
     ui = auto
 [user]
-    name = 小码哥
+    name = Le
     email = thisiswangle@gmail.com
 [merge]
     tool = vimdiff
@@ -21,3 +21,5 @@
     #sslVerify = false
 [credential]
 	helper = store
+[pull]
+	rebase = true

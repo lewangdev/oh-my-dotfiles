@@ -1,6 +1,6 @@
-[submodule "vim_runtime"]
-	path = vim_runtime
-	url = https://github.com/thisiswangle/vimrc.git
+[submodule "oh-my-vimrc"]
+	path = oh-my-vimrc
+	url = https://github.com/thisiswangle/oh-my-vimrc.git
 [submodule "oh-my-zsh"]
 	path = oh-my-zsh
 	url = https://github.com/thisiswangle/oh-my-zsh.git

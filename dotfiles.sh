@@ -1,19 +1,6 @@
 #!/bin/sh
 
-# Homebrew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
-# Command Tools
-brew install tmux
-brew install autojump
-brew install reattach-to-user-namespace
-
-# Python Tools
-curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-sudo python get-pip.py
-sudo pip install virtualenvwrapper
-
-# Set configs
+# Link configs
 [ -e ~/.zshrc ] && mv ~/.zshrc ~/.zshrc.bak
 ln -s ~/.dotfiles/zshrc ~/.zshrc
 
@@ -40,3 +27,4 @@ ln -s ~/.dotfiles/oh-my-ssh-keys ~/.ssh
 
 [ -e ~/.gitconfig ] && mv ~/.gitconfig ~/.gitconfig.bak
 ln -s ~/.dotfiles/gitconfig ~/.gitconfig
+

@@ -1,25 +1,25 @@
 #!/bin/sh
 
-[ -e ~/.zshrc ] && mv ~/.zshrc ~/.zshrc.orig
-ln -s ~/.dotfiles/.zshrc ~/.zshrc
+[ -e ~/.zshrc ] && mv ~/.zshrc ~/.zshrc.bak
+ln -s ~/.dotfiles/zshrc ~/.zshrc
 
-[ -e ~/.vimrc ] && mv ~/.vimrc ~/.vimrc.orig
-ln -s ~/.dotfiles/.vimrc ~/.vimrc
+[ -e ~/.vimrc ] && mv ~/.vimrc ~/.vimrc.bak
+ln -s ~/.dotfiles/vimrc ~/.vimrc
 
-[ -e ~/.vim_runtime ] && mv ~/.vim_runtime ~/.vim_runtime.orig
-ln -s ~/.dotfiles/vim_runtime ~/.vim_runtime
+[ -e ~/.vim_runtime ] && mv ~/.vim_runtime ~/.vim_runtime.bak
+ln -s ~/.dotfiles/oh-my-vimrc ~/.vim_runtime
 
-[ -e ~/.vim ] && mv ~/.vim ~/.vim.orig
-ln -s ~/.dotfiles/.vim ~/.vim
+[ -e ~/.vim ] && mv ~/.vim ~/.vim.bak
+ln -s ~/.dotfiles/vim ~/.vim
 
-[ -e ~/.tmux.conf ] && mv ~/.tmux.conf ~/.tmux.conf.orig
-ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
+[ -e ~/.tmux.conf ] && mv ~/.tmux.conf ~/.tmux.conf.bak
+ln -s ~/.dotfiles/tmux.conf ~/.tmux.conf
 
-[ -e ~/.pip ] && mv ~/.pip ~/.pip.orig
-ln -s ~/.dotfiles/.pip ~/.pip
+[ -e ~/.pip ] && mv ~/.pip ~/.pip.bak
+ln -s ~/.dotfiles/pip ~/.pip
 
-[ -e ~/.ssh ] && mv ~/.ssh ~/.ssh.orig
-ln -s ~/.dotfiles/.ssh ~/.ssh
+[ -e ~/.ssh ] && mv ~/.ssh ~/.ssh.bak
+ln -s ~/.dotfiles/oh-my-ssh-keys ~/.ssh
 
-[ -e ~/.gitconfig ] && mv ~/.gitconfig ~/.gitconfig.orig
-ln -s ~/.dotfiles/gitconfig.global ~/.gitconfig
+[ -e ~/.gitconfig ] && mv ~/.gitconfig ~/.gitconfig.bak
+ln -s ~/.dotfiles/gitconfig ~/.gitconfig

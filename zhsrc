@@ -73,11 +73,11 @@ fi
 # Export SSH_KEY_PATH="~/.ssh/id_rsa"
 # User configuration
 if [[ -z $WLTMUX ]]; then
-  source "$HOME/.dotfiles/.my_env"
+  source "$HOME/.dotfiles/my_env"
 fi
 
 # My aliases
-source "$HOME/.dotfiles/.my_aliases"
+source "$HOME/.dotfiles/my_aliases"
 
 # THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
 [[ -s "/Users/wangle/.gvm/bin/gvm-init.sh" ]] && source "/Users/wangle/.gvm/bin/gvm-init.sh"

@@ -25,7 +25,6 @@ brew cask install \
     sublime-text \
     spectacle \
     karabiner-elements \
-    alfred \
     virtualbox \
     vagrant \
     wpsoffice \
@@ -40,6 +39,12 @@ brew cask install \
 #brew cask install sequel-pro
 # New
 brew cask install homebrew/cask-versions/sequel-pro-nightly
+
+# If you have License for the newest version Alfred
+#brew cask install alfred
+# Otherwise
+# Install Alfred 3.8.1_961
+brew cask install https://raw.githubusercontent.com/Homebrew/homebrew-cask/64e9549b65c5a84632dc3451c6249fa1c375efb4/Casks/alfred.rb
 
 # Python Tools
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py

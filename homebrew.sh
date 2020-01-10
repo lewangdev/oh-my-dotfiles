@@ -13,7 +13,11 @@ brew install \
     tree \
     go \
     wget \
-    axel
+    axel \
+    dfc \
+    bandwhich \
+    onefetch
+
 
 brew cask install \
     chromedriver \

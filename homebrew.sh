@@ -18,7 +18,12 @@ brew install \
     bandwhich \
     onefetch
 
+# test
+brew install \
+    ffsend \
+    starship
 
+# Brew Cask
 brew cask install \
     chromedriver \
     google-chrome \

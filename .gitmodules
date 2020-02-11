@@ -7,6 +7,3 @@
 [submodule "oh-my-ssh-keys"]
 	path = oh-my-ssh-keys
 	url = https://github.com/thisiswangle/oh-my-ssh-keys.git
-[submodule "oh-my-squirrel"]
-	path = oh-my-squirrel
-	url = https://github.com/thisiswangle/oh-my-squirrel.git

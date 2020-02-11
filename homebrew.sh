@@ -38,7 +38,6 @@ brew cask install \
     vagrant \
     wpsoffice \
     dropbox \
-    squirrel \
     mysqlworkbench \
     shadowsocksx-ng \
     wechatwork \

@@ -3,7 +3,7 @@ allprojects {
         mavenLocal()
         maven { 
             name 'Aliyun Maven Repository'
-            url 'http://maven.aliyun.com/nexus/content/groups/public/' 
+            url 'https://maven.aliyun.com/nexus/content/groups/public/' 
         }
     }
 }

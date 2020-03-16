@@ -42,7 +42,7 @@
                         ]
                     },
                     {
-                        "description": "Change left_shift to control+spacebar.(Post left_shift if press alone)",
+                        "description": "Change left_shift to control+spacebar.(Post left_shift if press held down)",
                         "manipulators": [
                             {
                                 "from": {

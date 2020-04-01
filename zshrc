@@ -105,3 +105,5 @@ export PKG_CONFIG_PATH="/usr/local/opt/zlib/lib/pkgconfig"
 
 # Homebrew
 export HOMEBREW_NO_INSTALL_CLEANUP=true
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

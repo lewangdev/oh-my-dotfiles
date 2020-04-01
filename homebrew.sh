@@ -10,6 +10,7 @@ brew install \
     reattach-to-user-namespace \
     pyenv \
     htop \
+    gotop \
     tree \
     go \
     wget \

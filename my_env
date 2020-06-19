@@ -1,6 +1,6 @@
 export M2_HOME=/opt/mvn
-export ANDROID_SDK=/Users/wangle/Library/Android/sdk
-export ANDROID_NDK=/Users/wangle/Library/Android/ndk
+export ANDROID_SDK_ROOT=/usr/local/share/android-sdk
+export ANDROID_NDK_HOME=/usr/local/share/android-ndk
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/openjdk8/Contents/Home
 export GOPATH=/Users/wangle/.golang
 export PATH=/usr/local/opt/node@10/bin:/opt/gradle/bin:/usr/local/sbin::${M2_HOME}/bin:${JAVA_HOME}/bin:/opt/flutter/bin:$PATH

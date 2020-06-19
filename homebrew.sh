@@ -5,6 +5,8 @@
 
 # Command Tools
 brew install \
+    go \
+    rust \
     tmux \
     autojump \
     reattach-to-user-namespace \
@@ -12,12 +14,12 @@ brew install \
     htop \
     gotop \
     tree \
-    go \
     wget \
     axel \
     dfc \
     bandwhich \
-    onefetch
+    onefetch \
+    termshark
 
 # test
 brew install \

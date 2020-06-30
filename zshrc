@@ -80,11 +80,11 @@ fi
 source "$HOME/.dotfiles/my_aliases"
 
 # THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
-[[ -s "/Users/wangle/.gvm/bin/gvm-init.sh" ]] && source "/Users/wangle/.gvm/bin/gvm-init.sh"
+[[ -s "/Users/lewang/.gvm/bin/gvm-init.sh" ]] && source "/Users/lewang/.gvm/bin/gvm-init.sh"
 
 # THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/Users/wangle/.sdkman"
-[[ -s "/Users/wangle/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/wangle/.sdkman/bin/sdkman-init.sh"
+export SDKMAN_DIR="/Users/lewang/.sdkman"
+[[ -s "/Users/lewang/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/lewang/.sdkman/bin/sdkman-init.sh"
 
 #NVM
 export NVM_DIR="$HOME/.nvm"

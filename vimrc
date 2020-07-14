@@ -1,3 +1,8 @@
+try
+source ~/.vim_runtime/my_neovim_configs.vim
+catch
+endtry
+
 set runtimepath+=~/.vim_runtime
 
 source ~/.vim_runtime/vimrcs/basic.vim

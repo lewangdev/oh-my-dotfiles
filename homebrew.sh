@@ -57,11 +57,6 @@ brew cask install homebrew/cask-versions/sequel-pro-nightly
 # Install Alfred 3.8.1_961
 brew cask install https://raw.githubusercontent.com/Homebrew/homebrew-cask/64e9549b65c5a84632dc3451c6249fa1c375efb4/Casks/alfred.rb
 
-# Python Tools
-curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-sudo python get-pip.py
-sudo pip install virtualenvwrapper
-
-# Install you-get
-mkvirtualenv python3 -e python3
-pip install you-get
+# Install python
+v=3.7.7;wget https://npm.taobao.org/mirrors/python/$v/Python-$v.tar.xz -P ~/.pyenv/cache/;pyenv install $v
+v=3.8.3;wget https://npm.taobao.org/mirrors/python/$v/Python-$v.tar.xz -P ~/.pyenv/cache/;pyenv install $v

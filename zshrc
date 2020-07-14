@@ -72,7 +72,7 @@ fi
 # SSH
 # Export SSH_KEY_PATH="~/.ssh/id_rsa"
 # User configuration
-if [[ -z $WLTMUX ]]; then
+if [[ -z $MYTMUX ]]; then
   source "$HOME/.dotfiles/my_env"
 fi
 

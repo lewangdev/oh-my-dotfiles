@@ -35,7 +35,7 @@ alias sha256="openssl dgst -sha256"
 alias sha1="openssl sha1"
 
 # some commands
-alias mytmux="~/.dotfiles/mytmux"
+alias mytmux="~/.dotfiles/oh-my-dotfiles/mytmux"
 
 # for creating new post
 alias mypost="vim `date "+%Y-%m-%d".md`"

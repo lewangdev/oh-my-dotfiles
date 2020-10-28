@@ -44,7 +44,10 @@ brew cask install \
     mysqlworkbench \
     shadowsocksx-ng \
     wechatwork \
-    wechat
+    wechat \
+    scroll-reverser \
+    geekbench \
+    snipaste
 
 # Old
 #brew cask install sequel-pro

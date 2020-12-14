@@ -47,12 +47,13 @@ brew cask install \
     wechat \
     scroll-reverser \
     geekbench \
-    snipaste
+    snipaste \
+    sequel-ace
 
 # Old
 #brew cask install sequel-pro
 # New
-brew cask install homebrew/cask-versions/sequel-pro-nightly
+#brew cask install homebrew/cask-versions/sequel-pro-nightly
 
 # If you have License for the newest version Alfred
 #brew cask install alfred

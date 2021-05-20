@@ -1,4 +1,4 @@
-export ANDROID_SDK_ROOT=/usr/local/share/android-sdk
+export ANDROID_SDK_ROOT=/Users/lewang/Library/Android/sdk
 export ANDROID_NDK_HOME=/usr/local/share/android-ndk
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/openjdk8/Contents/Home
 export GOPATH=/Users/lewang/.golang

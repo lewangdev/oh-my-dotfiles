@@ -3,6 +3,8 @@ export ANDROID_NDK_HOME=/usr/local/share/android-ndk
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/openjdk8/Contents/Home
 export GOPATH=/Users/lewang/.golang
 export PATH=/usr/local/opt/node@10/bin:/opt/gradle/bin:/usr/local/sbin:${JAVA_HOME}/bin:/opt/flutter/bin:$PATH
+export PATH="/usr/local/opt/mysql-client@5.7/bin:$PATH"
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
 
